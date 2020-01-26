@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cookper</string>
+    <string name="main_btn0">시작하기</string>
+    <string name="main_btn1">레시피 만들기</string>
+    <string name="main_btn2">레시피 불러오기</string>
+    <string name="recipe_start">조리시작</string>
+
+
+    <string name="inputcode">레시피 코드를 입력하세요</string>
+    <string name="diag_add_button">추가</string>
+    <string name="diag_yes_button">불러오기</string>
+    <string name="diag_no_button">닫기</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

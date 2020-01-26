@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeActivity">
+
+    <ListView
+        android:id="@+id/recipeListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:listSelector="@android:color/transparent"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="15dp"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/uploadRecipe_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="10dp"
+        app:fabCustomSize="48dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_arrow_upward_black_24dp"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addRecipe_btn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:fabCustomSize="48dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_gravity="right|bottom"
+        android:gravity="center"
+        app:srcCompat="@drawable/ic_add_black_24dp" />
+</FrameLayout>
